@@ -12,6 +12,7 @@
 		0C99FB4519A6EF50000C3324 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C99FB4319A6EF50000C3324 /* Main.storyboard */; };
 		0C99FB4719A6EF50000C3324 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C99FB4619A6EF50000C3324 /* Images.xcassets */; };
 		0C99FB5319A6EF50000C3324 /* FibonacciSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C99FB5219A6EF50000C3324 /* FibonacciSwiftTests.swift */; };
+		0C99FB5D19A6EF78000C3324 /* FibonacciModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C99FB5C19A6EF78000C3324 /* FibonacciModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,7 @@
 		0C99FB4C19A6EF50000C3324 /* FibonacciSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FibonacciSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C99FB5119A6EF50000C3324 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0C99FB5219A6EF50000C3324 /* FibonacciSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FibonacciSwiftTests.swift; sourceTree = "<group>"; };
+		0C99FB5C19A6EF78000C3324 /* FibonacciModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FibonacciModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 				0C99FB3F19A6EF50000C3324 /* AppDelegate.swift */,
 				0C99FB4119A6EF50000C3324 /* ViewController.swift */,
 				0C99FB4319A6EF50000C3324 /* Main.storyboard */,
+				0C99FB5C19A6EF78000C3324 /* FibonacciModel.swift */,
 				0C99FB4619A6EF50000C3324 /* Images.xcassets */,
 				0C99FB3D19A6EF50000C3324 /* Supporting Files */,
 			);
@@ -208,6 +211,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C99FB5D19A6EF78000C3324 /* FibonacciModel.swift in Sources */,
 				0C99FB4219A6EF50000C3324 /* ViewController.swift in Sources */,
 				0C99FB4019A6EF50000C3324 /* AppDelegate.swift in Sources */,
 			);
