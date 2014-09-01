@@ -8,19 +8,19 @@
 
 import Foundation
 
-class FibonacciModel {
+public class FibonacciModel {
+    
+    public init () {}
     
     //Declaring a stored property with initial values
-    func calculateFibonacciNumbers (minimum2 endOfSequence:Int) -> Array<Int> {
-        
-        var sequence : [Int] = [1,1]
+    var sequence : [Int] = [1,1]
+    public func calculateFibonacciNumbers (minimum2 endOfSequence:Int) -> Array<Int> {
         
         for number in 2..<endOfSequence {
-            
             var newFibonacciNumber = sequence[number-1] + sequence[number-2]
             sequence.append(newFibonacciNumber)
         }
         
         return sequence
-    }
+    }  
 }
